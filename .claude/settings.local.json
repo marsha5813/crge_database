@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep:*)",
+      "Bash(awk:*)",
+      "Bash(cut:*)",
+      "Bash(ls:*)",
+      "Bash(R:*)",
+      "Bash(mkdir:*)",
+      "Bash(mv:*)",
+      "Bash(rm:*)",
+      "Bash(find:*)",
+      "Bash(for period in \"Pre-1900\" \"1900-1910\" \"1910-1920\" \"1920-1930\" \"1930-1940\" \"1940-1950\")",
+      "Bash(do)",
+      "Bash(echo:*)",
+      "Bash(done)",
+      "Bash(rg:*)",
+      "Bash(quarto render:*)",
+      "Bash(python3:*)",
+      "Bash(git --version)",
+      "Bash(git init:*)",
+      "Bash(git config:*)",
+      "Bash(git branch:*)",
+      "Bash(git add:*)",
+      "Bash(gh:*)",
+      "Bash(git remote set-url:*)"
+    ],
+    "deny": []
+  }
+}
