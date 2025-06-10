@@ -1,0 +1,26 @@
+# Quarto
+/.quarto/
+/_site/
+
+# R
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Temporary files
+*~
+*.tmp
+*.temp

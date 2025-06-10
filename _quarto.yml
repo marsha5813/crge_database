@@ -1,0 +1,855 @@
+project:
+  type: website
+
+website:
+  title: "CRGE Historical Database"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+    right:
+      - text: "EN / 中文"
+        menu:
+          - text: "English"
+            href: en/index.qmd
+          - text: "中文"
+            href: zh/index.qmd
+  sidebar:
+    style: "docked"
+    search: true
+    collapse-level: 1
+    contents:
+      - text: "**🏠 Home**"
+      - href: index.qmd
+        text: "Welcome Page"
+      - href: en/index.qmd
+        text: "📖 English Site"
+      - href: zh/index.qmd
+        text: "📚 中文网站"
+      - text: "---"
+      - text: "**📖 English Content**"
+      - section: "China"
+        contents:
+          - section: "Pre-1900"
+            contents:
+              - href: en/China/Pre-1900/Agency.qmd
+                text: "Agency"
+              - href: en/China/Pre-1900/Context.qmd
+                text: "Context"
+          - section: "1900-1910"
+            contents:
+              - href: en/China/1900-1910/Agency.qmd
+                text: "Agency"
+              - href: en/China/1900-1910/Context.qmd
+                text: "Context"
+          - section: "1910-1920"
+            contents:
+              - href: en/China/1910-1920/Agency.qmd
+                text: "Agency"
+              - href: en/China/1910-1920/Context.qmd
+                text: "Context"
+          - section: "1920-1930"
+            contents:
+              - href: en/China/1920-1930/Agency.qmd
+                text: "Agency"
+              - href: en/China/1920-1930/Context.qmd
+                text: "Context"
+          - section: "1930-1940"
+            contents:
+              - href: en/China/1930-1940/Agency.qmd
+                text: "Agency"
+              - href: en/China/1930-1940/Context.qmd
+                text: "Context"
+          - section: "1940-1950"
+            contents:
+              - href: en/China/1940-1950/Agency.qmd
+                text: "Agency"
+              - href: en/China/1940-1950/Context.qmd
+                text: "Context"
+          - section: "1950-1960"
+            contents:
+              - href: en/China/1950-1960/Agency.qmd
+                text: "Agency"
+              - href: en/China/1950-1960/Context.qmd
+                text: "Context"
+          - section: "1960-1970"
+            contents:
+              - href: en/China/1960-1970/Agency.qmd
+                text: "Agency"
+              - href: en/China/1960-1970/Context.qmd
+                text: "Context"
+          - section: "1970-1980"
+            contents:
+              - href: en/China/1970-1980/Agency.qmd
+                text: "Agency"
+              - href: en/China/1970-1980/Context.qmd
+                text: "Context"
+          - section: "1980-1990"
+            contents:
+              - href: en/China/1980-1990/Agency.qmd
+                text: "Agency"
+              - href: en/China/1980-1990/Context.qmd
+                text: "Context"
+          - section: "1990-2000"
+            contents:
+              - href: en/China/1990-2000/Agency.qmd
+                text: "Agency"
+              - href: en/China/1990-2000/Context.qmd
+                text: "Context"
+      - section: "Korea" 
+        contents:
+          - section: "Pre-1900"
+            contents:
+              - href: en/Korea/Pre-1900/Agency.qmd
+                text: "Agency"
+              - href: en/Korea/Pre-1900/Context.qmd
+                text: "Context"
+          - section: "1900-1910"
+            contents:
+              - href: en/Korea/1900-1910/Agency.qmd
+                text: "Agency"
+              - href: en/Korea/1900-1910/Context.qmd
+                text: "Context"
+          - section: "1910-1920"
+            contents:
+              - href: en/Korea/1910-1920/Agency.qmd
+                text: "Agency"
+              - href: en/Korea/1910-1920/Context.qmd
+                text: "Context"
+          - section: "1920-1930"
+            contents:
+              - href: en/Korea/1920-1930/Agency.qmd
+                text: "Agency"
+              - href: en/Korea/1920-1930/Context.qmd
+                text: "Context"
+          - section: "1930-1940"
+            contents:
+              - href: en/Korea/1930-1940/Agency.qmd
+                text: "Agency"
+              - href: en/Korea/1930-1940/Context.qmd
+                text: "Context"
+          - section: "1940-1950"
+            contents:
+              - href: en/Korea/1940-1950/Agency.qmd
+                text: "Agency"
+              - href: en/Korea/1940-1950/Context.qmd
+                text: "Context"
+          - section: "1950-1960"
+            contents:
+              - href: en/Korea/1950-1960/Agency.qmd
+                text: "Agency"
+              - href: en/Korea/1950-1960/Context.qmd
+                text: "Context"
+          - section: "1960-1970"
+            contents:
+              - href: en/Korea/1960-1970/Agency.qmd
+                text: "Agency"
+              - href: en/Korea/1960-1970/Context.qmd
+                text: "Context"
+          - section: "1970-1980"
+            contents:
+              - href: en/Korea/1970-1980/Agency.qmd
+                text: "Agency"
+              - href: en/Korea/1970-1980/Context.qmd
+                text: "Context"
+          - section: "1980-1990"
+            contents:
+              - href: en/Korea/1980-1990/Agency.qmd
+                text: "Agency"
+              - href: en/Korea/1980-1990/Context.qmd
+                text: "Context"
+          - section: "1990-2000"
+            contents:
+              - href: en/Korea/1990-2000/Agency.qmd
+                text: "Agency"
+              - href: en/Korea/1990-2000/Context.qmd
+                text: "Context"
+      - section: "Japan"
+        contents:
+          - section: "Pre-1900"
+            contents:
+              - href: en/Japan/Pre-1900/Agency.qmd
+                text: "Agency"
+              - href: en/Japan/Pre-1900/Context.qmd
+                text: "Context"
+          - section: "1900-1910"
+            contents:
+              - href: en/Japan/1900-1910/Agency.qmd
+                text: "Agency"
+              - href: en/Japan/1900-1910/Context.qmd
+                text: "Context"
+          - section: "1910-1920"
+            contents:
+              - href: en/Japan/1910-1920/Agency.qmd
+                text: "Agency"
+              - href: en/Japan/1910-1920/Context.qmd
+                text: "Context"
+          - section: "1920-1930"
+            contents:
+              - href: en/Japan/1920-1930/Agency.qmd
+                text: "Agency"
+              - href: en/Japan/1920-1930/Context.qmd
+                text: "Context"
+          - section: "1930-1940"
+            contents:
+              - href: en/Japan/1930-1940/Agency.qmd
+                text: "Agency"
+              - href: en/Japan/1930-1940/Context.qmd
+                text: "Context"
+          - section: "1940-1950"
+            contents:
+              - href: en/Japan/1940-1950/Agency.qmd
+                text: "Agency"
+              - href: en/Japan/1940-1950/Context.qmd
+                text: "Context"
+          - section: "1950-1960"
+            contents:
+              - href: en/Japan/1950-1960/Agency.qmd
+                text: "Agency"
+              - href: en/Japan/1950-1960/Context.qmd
+                text: "Context"
+          - section: "1960-1970"
+            contents:
+              - href: en/Japan/1960-1970/Agency.qmd
+                text: "Agency"
+              - href: en/Japan/1960-1970/Context.qmd
+                text: "Context"
+          - section: "1970-1980"
+            contents:
+              - href: en/Japan/1970-1980/Agency.qmd
+                text: "Agency"
+              - href: en/Japan/1970-1980/Context.qmd
+                text: "Context"
+          - section: "1980-1990"
+            contents:
+              - href: en/Japan/1980-1990/Agency.qmd
+                text: "Agency"
+              - href: en/Japan/1980-1990/Context.qmd
+                text: "Context"
+          - section: "1990-2000"
+            contents:
+              - href: en/Japan/1990-2000/Agency.qmd
+                text: "Agency"
+              - href: en/Japan/1990-2000/Context.qmd
+                text: "Context"
+      - section: "Taiwan"
+        contents:
+          - section: "Pre-1900"
+            contents:
+              - href: en/Taiwan/Pre-1900/Agency.qmd
+                text: "Agency"
+              - href: en/Taiwan/Pre-1900/Context.qmd
+                text: "Context"
+          - section: "1900-1910"
+            contents:
+              - href: en/Taiwan/1900-1910/Agency.qmd
+                text: "Agency"
+              - href: en/Taiwan/1900-1910/Context.qmd
+                text: "Context"
+          - section: "1910-1920"
+            contents:
+              - href: en/Taiwan/1910-1920/Agency.qmd
+                text: "Agency"
+              - href: en/Taiwan/1910-1920/Context.qmd
+                text: "Context"
+          - section: "1920-1930"
+            contents:
+              - href: en/Taiwan/1920-1930/Agency.qmd
+                text: "Agency"
+              - href: en/Taiwan/1920-1930/Context.qmd
+                text: "Context"
+          - section: "1930-1940"
+            contents:
+              - href: en/Taiwan/1930-1940/Agency.qmd
+                text: "Agency"
+              - href: en/Taiwan/1930-1940/Context.qmd
+                text: "Context"
+          - section: "1940-1950"
+            contents:
+              - href: en/Taiwan/1940-1950/Agency.qmd
+                text: "Agency"
+              - href: en/Taiwan/1940-1950/Context.qmd
+                text: "Context"
+          - section: "1950-1960"
+            contents:
+              - href: en/Taiwan/1950-1960/Agency.qmd
+                text: "Agency"
+              - href: en/Taiwan/1950-1960/Context.qmd
+                text: "Context"
+          - section: "1960-1970"
+            contents:
+              - href: en/Taiwan/1960-1970/Agency.qmd
+                text: "Agency"
+              - href: en/Taiwan/1960-1970/Context.qmd
+                text: "Context"
+          - section: "1970-1980"
+            contents:
+              - href: en/Taiwan/1970-1980/Agency.qmd
+                text: "Agency"
+              - href: en/Taiwan/1970-1980/Context.qmd
+                text: "Context"
+          - section: "1980-1990"
+            contents:
+              - href: en/Taiwan/1980-1990/Agency.qmd
+                text: "Agency"
+              - href: en/Taiwan/1980-1990/Context.qmd
+                text: "Context"
+          - section: "1990-2000"
+            contents:
+              - href: en/Taiwan/1990-2000/Agency.qmd
+                text: "Agency"
+              - href: en/Taiwan/1990-2000/Context.qmd
+                text: "Context"
+      - section: "Hong Kong"
+        contents:
+          - section: "Pre-1900"
+            contents:
+              - href: en/HK/Pre-1900/Agency.qmd
+                text: "Agency"
+              - href: en/HK/Pre-1900/Context.qmd
+                text: "Context"
+          - section: "1900-1910"
+            contents:
+              - href: en/HK/1900-1910/Agency.qmd
+                text: "Agency"
+              - href: en/HK/1900-1910/Context.qmd
+                text: "Context"
+          - section: "1910-1920"
+            contents:
+              - href: en/HK/1910-1920/Agency.qmd
+                text: "Agency"
+              - href: en/HK/1910-1920/Context.qmd
+                text: "Context"
+          - section: "1920-1930"
+            contents:
+              - href: en/HK/1920-1930/Agency.qmd
+                text: "Agency"
+              - href: en/HK/1920-1930/Context.qmd
+                text: "Context"
+          - section: "1930-1940"
+            contents:
+              - href: en/HK/1930-1940/Agency.qmd
+                text: "Agency"
+              - href: en/HK/1930-1940/Context.qmd
+                text: "Context"
+          - section: "1940-1950"
+            contents:
+              - href: en/HK/1940-1950/Agency.qmd
+                text: "Agency"
+              - href: en/HK/1940-1950/Context.qmd
+                text: "Context"
+          - section: "1950-1960"
+            contents:
+              - href: en/HK/1950-1960/Agency.qmd
+                text: "Agency"
+              - href: en/HK/1950-1960/Context.qmd
+                text: "Context"
+          - section: "1960-1970"
+            contents:
+              - href: en/HK/1960-1970/Agency.qmd
+                text: "Agency"
+              - href: en/HK/1960-1970/Context.qmd
+                text: "Context"
+          - section: "1970-1980"
+            contents:
+              - href: en/HK/1970-1980/Agency.qmd
+                text: "Agency"
+              - href: en/HK/1970-1980/Context.qmd
+                text: "Context"
+          - section: "1980-1990"
+            contents:
+              - href: en/HK/1980-1990/Agency.qmd
+                text: "Agency"
+              - href: en/HK/1980-1990/Context.qmd
+                text: "Context"
+          - section: "1990-2000"
+            contents:
+              - href: en/HK/1990-2000/Agency.qmd
+                text: "Agency"
+              - href: en/HK/1990-2000/Context.qmd
+                text: "Context"
+      - section: "Manchuria"
+        contents:
+          - section: "Pre-1900"
+            contents:
+              - href: en/Manchuria/Pre-1900/Agency.qmd
+                text: "Agency"
+              - href: en/Manchuria/Pre-1900/Context.qmd
+                text: "Context"
+          - section: "1900-1910"
+            contents:
+              - href: en/Manchuria/1900-1910/Agency.qmd
+                text: "Agency"
+              - href: en/Manchuria/1900-1910/Context.qmd
+                text: "Context"
+          - section: "1910-1920"
+            contents:
+              - href: en/Manchuria/1910-1920/Agency.qmd
+                text: "Agency"
+              - href: en/Manchuria/1910-1920/Context.qmd
+                text: "Context"
+          - section: "1920-1930"
+            contents:
+              - href: en/Manchuria/1920-1930/Agency.qmd
+                text: "Agency"
+              - href: en/Manchuria/1920-1930/Context.qmd
+                text: "Context"
+          - section: "1930-1940"
+            contents:
+              - href: en/Manchuria/1930-1940/Agency.qmd
+                text: "Agency"
+              - href: en/Manchuria/1930-1940/Context.qmd
+                text: "Context"
+          - section: "1940-1950"
+            contents:
+              - href: en/Manchuria/1940-1950/Agency.qmd
+                text: "Agency"
+              - href: en/Manchuria/1940-1950/Context.qmd
+                text: "Context"
+          - section: "1950-1960"
+            contents:
+              - href: en/Manchuria/1950-1960/Agency.qmd
+                text: "Agency"
+              - href: en/Manchuria/1950-1960/Context.qmd
+                text: "Context"
+          - section: "1960-1970"
+            contents:
+              - href: en/Manchuria/1960-1970/Agency.qmd
+                text: "Agency"
+              - href: en/Manchuria/1960-1970/Context.qmd
+                text: "Context"
+          - section: "1970-1980"
+            contents:
+              - href: en/Manchuria/1970-1980/Agency.qmd
+                text: "Agency"
+              - href: en/Manchuria/1970-1980/Context.qmd
+                text: "Context"
+          - section: "1980-1990"
+            contents:
+              - href: en/Manchuria/1980-1990/Agency.qmd
+                text: "Agency"
+              - href: en/Manchuria/1980-1990/Context.qmd
+                text: "Context"
+          - section: "1990-2000"
+            contents:
+              - href: en/Manchuria/1990-2000/Agency.qmd
+                text: "Agency"
+              - href: en/Manchuria/1990-2000/Context.qmd
+                text: "Context"
+      - text: "---"
+      - text: "**📚 中文内容**"
+      - section: "中国"
+        contents:
+          - section: "1900年前"
+            contents:
+              - href: zh/China/Pre-1900/Agency.qmd
+                text: "机构"
+              - href: zh/China/Pre-1900/Context.qmd
+                text: "背景"
+          - section: "1900-1910"
+            contents:
+              - href: zh/China/1900-1910/Agency.qmd
+                text: "机构"
+              - href: zh/China/1900-1910/Context.qmd
+                text: "背景"
+          - section: "1910-1920"
+            contents:
+              - href: zh/China/1910-1920/Agency.qmd
+                text: "机构"
+              - href: zh/China/1910-1920/Context.qmd
+                text: "背景"
+          - section: "1920-1930"
+            contents:
+              - href: zh/China/1920-1930/Agency.qmd
+                text: "机构"
+              - href: zh/China/1920-1930/Context.qmd
+                text: "背景"
+          - section: "1930-1940"
+            contents:
+              - href: zh/China/1930-1940/Agency.qmd
+                text: "机构"
+              - href: zh/China/1930-1940/Context.qmd
+                text: "背景"
+          - section: "1940-1950"
+            contents:
+              - href: zh/China/1940-1950/Agency.qmd
+                text: "机构"
+              - href: zh/China/1940-1950/Context.qmd
+                text: "背景"
+          - section: "1950-1960"
+            contents:
+              - href: zh/China/1950-1960/Agency.qmd
+                text: "机构"
+              - href: zh/China/1950-1960/Context.qmd
+                text: "背景"
+          - section: "1960-1970"
+            contents:
+              - href: zh/China/1960-1970/Agency.qmd
+                text: "机构"
+              - href: zh/China/1960-1970/Context.qmd
+                text: "背景"
+          - section: "1970-1980"
+            contents:
+              - href: zh/China/1970-1980/Agency.qmd
+                text: "机构"
+              - href: zh/China/1970-1980/Context.qmd
+                text: "背景"
+          - section: "1980-1990"
+            contents:
+              - href: zh/China/1980-1990/Agency.qmd
+                text: "机构"
+              - href: zh/China/1980-1990/Context.qmd
+                text: "背景"
+          - section: "1990-2000"
+            contents:
+              - href: zh/China/1990-2000/Agency.qmd
+                text: "机构"
+              - href: zh/China/1990-2000/Context.qmd
+                text: "背景"
+      - section: "韩国"
+        contents:
+          - section: "1900年前"
+            contents:
+              - href: zh/Korea/Pre-1900/Agency.qmd
+                text: "机构"
+              - href: zh/Korea/Pre-1900/Context.qmd
+                text: "背景"
+          - section: "1900-1910"
+            contents:
+              - href: zh/Korea/1900-1910/Agency.qmd
+                text: "机构"
+              - href: zh/Korea/1900-1910/Context.qmd
+                text: "背景"
+          - section: "1910-1920"
+            contents:
+              - href: zh/Korea/1910-1920/Agency.qmd
+                text: "机构"
+              - href: zh/Korea/1910-1920/Context.qmd
+                text: "背景"
+          - section: "1920-1930"
+            contents:
+              - href: zh/Korea/1920-1930/Agency.qmd
+                text: "机构"
+              - href: zh/Korea/1920-1930/Context.qmd
+                text: "背景"
+          - section: "1930-1940"
+            contents:
+              - href: zh/Korea/1930-1940/Agency.qmd
+                text: "机构"
+              - href: zh/Korea/1930-1940/Context.qmd
+                text: "背景"
+          - section: "1940-1950"
+            contents:
+              - href: zh/Korea/1940-1950/Agency.qmd
+                text: "机构"
+              - href: zh/Korea/1940-1950/Context.qmd
+                text: "背景"
+          - section: "1950-1960"
+            contents:
+              - href: zh/Korea/1950-1960/Agency.qmd
+                text: "机构"
+              - href: zh/Korea/1950-1960/Context.qmd
+                text: "背景"
+          - section: "1960-1970"
+            contents:
+              - href: zh/Korea/1960-1970/Agency.qmd
+                text: "机构"
+              - href: zh/Korea/1960-1970/Context.qmd
+                text: "背景"
+          - section: "1970-1980"
+            contents:
+              - href: zh/Korea/1970-1980/Agency.qmd
+                text: "机构"
+              - href: zh/Korea/1970-1980/Context.qmd
+                text: "背景"
+          - section: "1980-1990"
+            contents:
+              - href: zh/Korea/1980-1990/Agency.qmd
+                text: "机构"
+              - href: zh/Korea/1980-1990/Context.qmd
+                text: "背景"
+          - section: "1990-2000"
+            contents:
+              - href: zh/Korea/1990-2000/Agency.qmd
+                text: "机构"
+              - href: zh/Korea/1990-2000/Context.qmd
+                text: "背景"      
+      - section: "日本"
+        contents:
+          - section: "1900年前"
+            contents:
+              - href: zh/Japan/Pre-1900/Agency.qmd
+                text: "机构"
+              - href: zh/Japan/Pre-1900/Context.qmd
+                text: "背景"
+          - section: "1900-1910"
+            contents:
+              - href: zh/Japan/1900-1910/Agency.qmd
+                text: "机构"
+              - href: zh/Japan/1900-1910/Context.qmd
+                text: "背景"
+          - section: "1910-1920"
+            contents:
+              - href: zh/Japan/1910-1920/Agency.qmd
+                text: "机构"
+              - href: zh/Japan/1910-1920/Context.qmd
+                text: "背景"
+          - section: "1920-1930"
+            contents:
+              - href: zh/Japan/1920-1930/Agency.qmd
+                text: "机构"
+              - href: zh/Japan/1920-1930/Context.qmd
+                text: "背景"
+          - section: "1930-1940"
+            contents:
+              - href: zh/Japan/1930-1940/Agency.qmd
+                text: "机构"
+              - href: zh/Japan/1930-1940/Context.qmd
+                text: "背景"
+          - section: "1940-1950"
+            contents:
+              - href: zh/Japan/1940-1950/Agency.qmd
+                text: "机构"
+              - href: zh/Japan/1940-1950/Context.qmd
+                text: "背景"
+          - section: "1950-1960"
+            contents:
+              - href: zh/Japan/1950-1960/Agency.qmd
+                text: "机构"
+              - href: zh/Japan/1950-1960/Context.qmd
+                text: "背景"
+          - section: "1960-1970"
+            contents:
+              - href: zh/Japan/1960-1970/Agency.qmd
+                text: "机构"
+              - href: zh/Japan/1960-1970/Context.qmd
+                text: "背景"
+          - section: "1970-1980"
+            contents:
+              - href: zh/Japan/1970-1980/Agency.qmd
+                text: "机构"
+              - href: zh/Japan/1970-1980/Context.qmd
+                text: "背景"
+          - section: "1980-1990"
+            contents:
+              - href: zh/Japan/1980-1990/Agency.qmd
+                text: "机构"
+              - href: zh/Japan/1980-1990/Context.qmd
+                text: "背景"
+          - section: "1990-2000"
+            contents:
+              - href: zh/Japan/1990-2000/Agency.qmd
+                text: "机构"
+              - href: zh/Japan/1990-2000/Context.qmd
+                text: "背景"      
+      - section: "台湾"
+        contents:
+          - section: "1900年前"
+            contents:
+              - href: zh/Taiwan/Pre-1900/Agency.qmd
+                text: "机构"
+              - href: zh/Taiwan/Pre-1900/Context.qmd
+                text: "背景"
+          - section: "1900-1910"
+            contents:
+              - href: zh/Taiwan/1900-1910/Agency.qmd
+                text: "机构"
+              - href: zh/Taiwan/1900-1910/Context.qmd
+                text: "背景"
+          - section: "1910-1920"
+            contents:
+              - href: zh/Taiwan/1910-1920/Agency.qmd
+                text: "机构"
+              - href: zh/Taiwan/1910-1920/Context.qmd
+                text: "背景"
+          - section: "1920-1930"
+            contents:
+              - href: zh/Taiwan/1920-1930/Agency.qmd
+                text: "机构"
+              - href: zh/Taiwan/1920-1930/Context.qmd
+                text: "背景"
+          - section: "1930-1940"
+            contents:
+              - href: zh/Taiwan/1930-1940/Agency.qmd
+                text: "机构"
+              - href: zh/Taiwan/1930-1940/Context.qmd
+                text: "背景"
+          - section: "1940-1950"
+            contents:
+              - href: zh/Taiwan/1940-1950/Agency.qmd
+                text: "机构"
+              - href: zh/Taiwan/1940-1950/Context.qmd
+                text: "背景"
+          - section: "1950-1960"
+            contents:
+              - href: zh/Taiwan/1950-1960/Agency.qmd
+                text: "机构"
+              - href: zh/Taiwan/1950-1960/Context.qmd
+                text: "背景"
+          - section: "1960-1970"
+            contents:
+              - href: zh/Taiwan/1960-1970/Agency.qmd
+                text: "机构"
+              - href: zh/Taiwan/1960-1970/Context.qmd
+                text: "背景"
+          - section: "1970-1980"
+            contents:
+              - href: zh/Taiwan/1970-1980/Agency.qmd
+                text: "机构"
+              - href: zh/Taiwan/1970-1980/Context.qmd
+                text: "背景"
+          - section: "1980-1990"
+            contents:
+              - href: zh/Taiwan/1980-1990/Agency.qmd
+                text: "机构"
+              - href: zh/Taiwan/1980-1990/Context.qmd
+                text: "背景"
+          - section: "1990-2000"
+            contents:
+              - href: zh/Taiwan/1990-2000/Agency.qmd
+                text: "机构"
+              - href: zh/Taiwan/1990-2000/Context.qmd
+                text: "背景"      
+      - section: "香港"
+        contents:
+          - section: "1900年前"
+            contents:
+              - href: zh/HK/Pre-1900/Agency.qmd
+                text: "机构"
+              - href: zh/HK/Pre-1900/Context.qmd
+                text: "背景"
+          - section: "1900-1910"
+            contents:
+              - href: zh/HK/1900-1910/Agency.qmd
+                text: "机构"
+              - href: zh/HK/1900-1910/Context.qmd
+                text: "背景"
+          - section: "1910-1920"
+            contents:
+              - href: zh/HK/1910-1920/Agency.qmd
+                text: "机构"
+              - href: zh/HK/1910-1920/Context.qmd
+                text: "背景"
+          - section: "1920-1930"
+            contents:
+              - href: zh/HK/1920-1930/Agency.qmd
+                text: "机构"
+              - href: zh/HK/1920-1930/Context.qmd
+                text: "背景"
+          - section: "1930-1940"
+            contents:
+              - href: zh/HK/1930-1940/Agency.qmd
+                text: "机构"
+              - href: zh/HK/1930-1940/Context.qmd
+                text: "背景"
+          - section: "1940-1950"
+            contents:
+              - href: zh/HK/1940-1950/Agency.qmd
+                text: "机构"
+              - href: zh/HK/1940-1950/Context.qmd
+                text: "背景"
+          - section: "1950-1960"
+            contents:
+              - href: zh/HK/1950-1960/Agency.qmd
+                text: "机构"
+              - href: zh/HK/1950-1960/Context.qmd
+                text: "背景"
+          - section: "1960-1970"
+            contents:
+              - href: zh/HK/1960-1970/Agency.qmd
+                text: "机构"
+              - href: zh/HK/1960-1970/Context.qmd
+                text: "背景"
+          - section: "1970-1980"
+            contents:
+              - href: zh/HK/1970-1980/Agency.qmd
+                text: "机构"
+              - href: zh/HK/1970-1980/Context.qmd
+                text: "背景"
+          - section: "1980-1990"
+            contents:
+              - href: zh/HK/1980-1990/Agency.qmd
+                text: "机构"
+              - href: zh/HK/1980-1990/Context.qmd
+                text: "背景"
+          - section: "1990-2000"
+            contents:
+              - href: zh/HK/1990-2000/Agency.qmd
+                text: "机构"
+              - href: zh/HK/1990-2000/Context.qmd
+                text: "背景"      
+      - section: "满洲"
+        contents:
+          - section: "1900年前"
+            contents:
+              - href: zh/Manchuria/Pre-1900/Agency.qmd
+                text: "机构"
+              - href: zh/Manchuria/Pre-1900/Context.qmd
+                text: "背景"
+          - section: "1900-1910"
+            contents:
+              - href: zh/Manchuria/1900-1910/Agency.qmd
+                text: "机构"
+              - href: zh/Manchuria/1900-1910/Context.qmd
+                text: "背景"
+          - section: "1910-1920"
+            contents:
+              - href: zh/Manchuria/1910-1920/Agency.qmd
+                text: "机构"
+              - href: zh/Manchuria/1910-1920/Context.qmd
+                text: "背景"
+          - section: "1920-1930"
+            contents:
+              - href: zh/Manchuria/1920-1930/Agency.qmd
+                text: "机构"
+              - href: zh/Manchuria/1920-1930/Context.qmd
+                text: "背景"
+          - section: "1930-1940"
+            contents:
+              - href: zh/Manchuria/1930-1940/Agency.qmd
+                text: "机构"
+              - href: zh/Manchuria/1930-1940/Context.qmd
+                text: "背景"
+          - section: "1940-1950"
+            contents:
+              - href: zh/Manchuria/1940-1950/Agency.qmd
+                text: "机构"
+              - href: zh/Manchuria/1940-1950/Context.qmd
+                text: "背景"
+          - section: "1950-1960"
+            contents:
+              - href: zh/Manchuria/1950-1960/Agency.qmd
+                text: "机构"
+              - href: zh/Manchuria/1950-1960/Context.qmd
+                text: "背景"
+          - section: "1960-1970"
+            contents:
+              - href: zh/Manchuria/1960-1970/Agency.qmd
+                text: "机构"
+              - href: zh/Manchuria/1960-1970/Context.qmd
+                text: "背景"
+          - section: "1970-1980"
+            contents:
+              - href: zh/Manchuria/1970-1980/Agency.qmd
+                text: "机构"
+              - href: zh/Manchuria/1970-1980/Context.qmd
+                text: "背景"
+          - section: "1980-1990"
+            contents:
+              - href: zh/Manchuria/1980-1990/Agency.qmd
+                text: "机构"
+              - href: zh/Manchuria/1980-1990/Context.qmd
+                text: "背景"
+          - section: "1990-2000"
+            contents:
+              - href: zh/Manchuria/1990-2000/Agency.qmd
+                text: "机构"
+              - href: zh/Manchuria/1990-2000/Context.qmd
+                text: "背景"      
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-depth: 3

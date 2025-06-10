@@ -1,0 +1,39 @@
+# China: Agency (1990-2000)
+
+```{r}
+#| include: false
+library(dplyr)
+library(glue)
+
+area_filter <- "China"
+period_filter <- "1990-2000"
+topic_filter <- "Agency"
+
+df <- read.csv("../../../data.csv", stringsAsFactors = FALSE)
+df_agency <- df %>% filter(area == area_filter, period == period_filter, topic == topic_filter)
+
+print_section <- function(section_name, heading_text) {
+  section_data <- df_agency %>% filter(section == section_name)
+  txts <- section_data %>% pull(text_en)
+  txts_trimmed <- trimws(txts)
+  txts_nonempty <- txts_trimmed[!is.na(txts_trimmed) & nzchar(txts_trimmed)]
+  
+  if (length(txts_nonempty) > 0) {
+    cat(paste0("## ", heading_text, "\n\n"))
+    cat(paste(txts_nonempty, collapse = "\n\n"), "\n\n")
+  }
+}
+```
+
+```{r}
+#| results: asis
+#| echo: false
+print_section("Christian or Pro-Christian Leaders", "Christian or Pro-Christian Leaders")
+print_section("Christian or Pro-Christian Organizations", "Christian or Pro-Christian Organizations")
+print_section("Christian or Pro-Christian Events/Movements", "Christian or Pro-Christian Events/Movements")
+print_section("Key theological, doctrinal, or ecclesiastic issues in this decade, if any", "Key Theological Issues")
+print_section("Anti-Christian Leaders (including competitors from secularisms and other religions who argued or campaigned against Christianity)", "Anti-Christian Leaders")
+print_section("Anti-Christian Organizations (including competing organizations of secularisms and other religions that campaigned against Christianity)", "Anti-Christian Organizations")
+print_section("Anti-Christian Events/Movements (including competing events/movements against Christianity)", "Anti-Christian Events/Movements")
+print_section("Bibliography", "Bibliography")
+```
