@@ -43,11 +43,12 @@ git checkout gh-pages
 
 # Only remove files that should be replaced (preserve .git and other important files)
 # Remove HTML files, CSS, JS, and other web assets, but keep git files
-find . -maxdepth 1 -name "*.html" -delete || true
-find . -maxdepth 1 -name "*.css" -delete || true
-find . -maxdepth 1 -name "*.js" -delete || true
-find . -maxdepth 1 -name "*.json" -delete || true
-rm -rf site_libs en zh styles.css || true
+find . -maxdepth 1 -name "*.html" -delete 2>/dev/null || true
+find . -maxdepth 1 -name "*.css" -delete 2>/dev/null || true
+find . -maxdepth 1 -name "*.js" -delete 2>/dev/null || true
+find . -maxdepth 1 -name "*.json" -delete 2>/dev/null || true
+chmod -R +w site_libs en zh 2>/dev/null || true
+rm -rf site_libs en zh styles.css 2>/dev/null || true
 
 # Copy new site content from temp directory
 echo "📁 Copying new site content..."
