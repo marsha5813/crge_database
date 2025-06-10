@@ -1,0 +1,15 @@
+{
+  "hash": "7bacfebc090d3feb87b5e7777fa8dd50",
+  "result": {
+    "engine": "knitr",
+    "markdown": "# Taiwan: Agency (Pre-1900)\n\n\n\n\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

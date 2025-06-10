@@ -1,0 +1,15 @@
+{
+  "hash": "4532de0cdb24e724263d06b329a2c17c",
+  "result": {
+    "engine": "knitr",
+    "markdown": "# Hong Kong: Context (Pre-1900)\n\n\n\n\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "hash": "debdeb4e7f5939e41be06019f2eca7a5",
+  "result": {
+    "engine": "knitr",
+    "markdown": "# China: Agency (1990-2000)\n\n\n\n\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

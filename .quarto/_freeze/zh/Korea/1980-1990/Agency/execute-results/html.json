@@ -1,0 +1,15 @@
+{
+  "hash": "0d7354f680572df6b2375b84f683c790",
+  "result": {
+    "engine": "knitr",
+    "markdown": "# Korea: Agency (1980-1990)\n\n\n\n\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "hash": "f9d4f98ff5bd47f7e20233d146527b9e",
+  "result": {
+    "engine": "knitr",
+    "markdown": "# China: Context (1980-1990)\n\n\n\n\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

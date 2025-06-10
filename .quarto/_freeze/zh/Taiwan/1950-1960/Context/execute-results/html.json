@@ -1,0 +1,15 @@
+{
+  "hash": "8d5912d156c1267e6cb87d8001ac69a1",
+  "result": {
+    "engine": "knitr",
+    "markdown": "# Taiwan: Context (1950-1960)\n\n\n\n\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

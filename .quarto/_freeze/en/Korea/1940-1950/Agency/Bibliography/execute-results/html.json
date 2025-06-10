@@ -1,0 +1,17 @@
+{
+  "hash": "08bdea377c3e0433ad8baefae255e91c",
+  "result": {
+    "engine": "knitr",
+    "markdown": "\n# Bibliography\n\n\n\n\n\n\n\n\n ",
+    "supporting": [
+      "Bibliography_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

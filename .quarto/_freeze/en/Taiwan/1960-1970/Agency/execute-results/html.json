@@ -1,0 +1,15 @@
+{
+  "hash": "f006a6ba94bc5de59662a457fad6abec",
+  "result": {
+    "engine": "knitr",
+    "markdown": "# Taiwan: Agency (1960-1970)\n\n\n\n\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "hash": "b09dccee18ca9c930895fea5dfdd2ec0",
+  "result": {
+    "engine": "knitr",
+    "markdown": "# China: Agency (1900-1910)\n\n\n\n\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

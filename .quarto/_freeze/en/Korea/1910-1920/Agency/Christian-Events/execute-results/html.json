@@ -1,0 +1,17 @@
+{
+  "hash": "6540aefce2bd4bb685838fe87421024e",
+  "result": {
+    "engine": "knitr",
+    "markdown": "\n# Christian or Pro-Christian Events/Movements\n\n\n\n\n\n\n\nNo content available for this section.",
+    "supporting": [
+      "Christian-Events_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

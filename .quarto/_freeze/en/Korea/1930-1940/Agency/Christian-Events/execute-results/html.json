@@ -1,0 +1,17 @@
+{
+  "hash": "46d38d829bed082bf2610b529eecd39c",
+  "result": {
+    "engine": "knitr",
+    "markdown": "\n# Christian or Pro-Christian Events/Movements\n\n\n\n\n\n\n\n\nThe Search for Koreanized Christianity\n\n\nAs mentioned earlier, both Kim Gyo-sin and Seongseo Joseon were influenced by Uchimura Kanzo's Non-Church Movement, but their ultimate goals were not Non-Church Movement itself. Non-Church Movement served as a means to establish 'Korean Christianity.' Just as Uchimura was a 'nationalist faith person' in Japan, Kim Gyo-sin was a 'nationalist faith person' in Korea. In the founding principles of Seongseo Joseon, they emphasized \"Korean people with Korean souls\" and expressed their desire to \"give Korea the Bible to establish its framework and create its essence\" and to \"broadly and deeply study Korea to establish an eternal new Korea on the foundation of the Bible.\"\n\nChoi Tae-yong was also influenced by Uchimura Kanzo but held a different ideological stance. He initiated the 'Spiritual Christianity' movement within the institutionalized churches, but he faced criticism from conservative theologians and the institutionalized churches. In response, on December 22, 1935, in Seoul's Sogyeok-dong, he founded the 'Christianity of Korea Gospel Church' as the 'third church' and announced the Three Major Principles, emphasizing the nature and direction of \"Gospel-centered, life-centered faith/academic theology/Korean people's own church.\" This move was rooted in a critique of the institutionalized churches that relied on the support of foreign missionary organizations. He argued that a Western-dependent attitude hindered the development of Korean faith.\n\n전인수. (2017). 김교신의 조선산 기독교에 대한 역사적 이해: 조선혼과 조선심을 중심으로. 한국기독교와 역사, (47), 239-267.\n\n김정화. (2022). 일제강점기 ‘조선적’기독교의 모색과 최태용. 역사연구, (43), 89-122.\n\n\n ",
+    "supporting": [
+      "Christian-Events_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

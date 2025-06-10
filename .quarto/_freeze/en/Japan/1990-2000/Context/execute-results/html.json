@@ -1,0 +1,15 @@
+{
+  "hash": "7f89a4a7742512abad65eafc34bc8ddc",
+  "result": {
+    "engine": "knitr",
+    "markdown": "# Japan: Context (1990-2000)\n\n\n\n\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

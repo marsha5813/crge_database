@@ -1,0 +1,17 @@
+{
+  "hash": "f4e70b95e1a86b945aa48fcb61d93a56",
+  "result": {
+    "engine": "knitr",
+    "markdown": "\n# Social Hostility and Religious Tensions\n\n\n\n\n\n\n\nNo content available for this section.",
+    "supporting": [
+      "Social-Hostility_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

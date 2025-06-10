@@ -1,0 +1,15 @@
+{
+  "hash": "328177d8b1189821e9d6412d1af84f34",
+  "result": {
+    "engine": "knitr",
+    "markdown": "# Manchuria: Context (1910-1920)\n\n\n\n\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

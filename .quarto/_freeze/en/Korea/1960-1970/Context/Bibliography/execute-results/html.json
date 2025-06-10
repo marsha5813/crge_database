@@ -1,0 +1,17 @@
+{
+  "hash": "de50308eb0ee4f1b60b41f6b379d7d52",
+  "result": {
+    "engine": "knitr",
+    "markdown": "\n# Bibliography\n\n\n\n\n\n\n\nlark, Donald N. Christianity in Modern Korea. Lanham: University Press of America, 1986.\n\nFraser, Donald. Fraser Report: Human Rights and U.S. Foreign Policy. Washington, D.C.: U.S. House Committee on International Relations, 1976.\n\nJeong, Byeong-jun. “The Park Chung Hee Regime and Christianity: A Historiographical Study on Church-State Relations.” Korean Christianity and Thought 40 (2007): 7–87.\n\nKang, In-chul. Church and Democracy in South Korea: The Role of Christian Movements in the Democratization Process, 1960–1987. Seoul: Hanul Academy, 2011.\n\nKim, Heung-soo. “A History and Typology of Korean Christianity’s Engagement in Politics.” Theological Thought 160 (2011): 59–98.\n\nKim, Kirsteen. “Christian Mission in the Public Life of Korea: Foreign Missions and Their Legacy.” International Bulletin of Mission Research 36, no. 2 (2012): 89–94.\n\nLee, Timothy S. Born Again: Evangelicalism in Korea. Honolulu: University of Hawai‘i Press, 2010.\n\nRyu, Dae-young. “The Attitude of Korean Protestantism toward the Vietnam War.” Korean Church History Review 17 (2005): 177–203.\n\nSchmid, Andre. Korea Between Empires, 1895–1919. New York: Columbia University Press, 2002.\n\nACTS (Asian Center for Theological Studies and Mission). Underground Church in North Korea: Testimonies and Analysis. Seoul: ACTS Press, 2002.\n\nKeum, Jooseop. Remnants and Renewal: A History of Protestant Christianity in North Korea. PhD diss., University of Edinburgh, 2013.\n\nKim, Seong-tae.  The Path of Suffering of the North Korean Church and the Mission of a Unified Korean Church. Shinhak Jinan 87, no. 3 (2020): 7–28.\n\nKim, Sung-Soo. “North Korea’s Religious Policy and the Korean Christian Federation.” Journal of Korean Church History 32 (2009): 111–132.\n\nKo, Byung-Chul. Modern Korean Religious Law and Policy. Seoul: Pakmunsa, 2021.\n\nLee, Keun-Young. Christianity and Politics in Korea. Seoul: Joeunddang, 2020.\n\nPark, Myung-Soo. “Theological Reflections on Korean Revivalism and Developmentalism.” Korean Church History Review 28 (2019): 87–104.\n\nStatistics Korea. Census on Religion. Seoul: KOSTAT, 1985.\n\n\n ",
+    "supporting": [
+      "Bibliography_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

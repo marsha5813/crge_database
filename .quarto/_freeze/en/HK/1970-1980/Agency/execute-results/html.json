@@ -1,0 +1,15 @@
+{
+  "hash": "66b073bff7444c343c5232e7566c3943",
+  "result": {
+    "engine": "knitr",
+    "markdown": "# Hong Kong: Agency (1970-1980)\n\n\n\n\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

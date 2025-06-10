@@ -1,0 +1,15 @@
+{
+  "hash": "d34da7d448454aaeab811eb885bfdb27",
+  "result": {
+    "engine": "knitr",
+    "markdown": "# Korea: Agency (1900-1910)\n\n\n\n\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

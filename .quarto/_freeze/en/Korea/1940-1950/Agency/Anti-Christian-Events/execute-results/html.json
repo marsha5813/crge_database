@@ -1,0 +1,17 @@
+{
+  "hash": "ca7a77a071a56518e688a7ca92b9893c",
+  "result": {
+    "engine": "knitr",
+    "markdown": "\n# Anti-Christian Events/Movements (including competing events/movements against Christianity)\n\n\n\n\n\n\n\nNo content available for this section.",
+    "supporting": [
+      "Anti-Christian-Events_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

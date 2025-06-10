@@ -1,0 +1,17 @@
+{
+  "hash": "76cc532e30cfe731a31d2dee13b30dc3",
+  "result": {
+    "engine": "knitr",
+    "markdown": "\n# Bibliography\n\n\n\n\n\n\n\n\nHaga, Kai Yin Allison. An Overlooked Dimension of the Korean War: The Role of Christianity and American Missionaries in the Rise of Korean Nationalism, Anti-Colonialism, and Eventual Civil War, 1884–1953. PhD diss., College of William and Mary, 2007.\n\nKim, Heung-Soo. “The Korean War and Structural Changes in the Korean Church.” Theological Forum 26 (2003): 113–139.\n\nPaik, Nak-Chung. “Christian Relief Organizations’ Humanitarian Work during the Korean War.” History and Reality 38 (2000): 5–37.\n\nJang, Shin-Geun. “War Relief Supplies and the Empowerment of Northern Refugee Christians in South Korea.” Christian Thought 709 (2016): 82–96.\n\nIon, A. Hamish. 2011. Canadian Missionaries in Korea and Japan and the Korean War, 1950–1951. Bulletin No. 50. Tokyo: International Christian University.\n\nSuh, David Kwang-Sun. 1985. “American Missionaries and a Hundred Years of Korean Protestantism.” International Review of Mission 74 (293): 5–27. https://doi.org/10.1111/j.1758-6631.1985.tb03315.x.\n\nHaga, Kai Yin Allison. An overlooked dimension of the Korean War: The role of Christianity and American missionaries in the rise of Korean nationalism, anti-colonialism, and eventual civil war, 1884–1953. The College of William and Mary, 2007. \n\nPark, Chang Jin. \"The influence of small states upon the superpowers: United States-South Korean relations as a case study, 1950–53.\" World Politics 28, no. 1 (1975): 97-117. \n\nPark, Jung-Ho, and Man-Hee Han. \"Modern state formation and land management in South Korea: 1945–1960.\" Land Use Policy 78 (2018): 662-671.\n\nHan, Seong-Hoon. 2023. Changes in North Korea’s Overseas Korean Policy. Seoul: Center for Contemporary North Korean Studies. https://nk.ac.kr/wp-content/uploads/2023/05/현대북한연구-26-1_한성훈.pdf.\n\nHong, Yong-Pyo. 2000. North Korea’s Strategic Culture and Security Policy. Seoul: Korea Institute for National Unification. https://repo.kinu.or.kr/bitstream/2015.oak/538/1/0000596140.pdf.\n\nHong, Seok-Hoon. 2016. Changes in the Unification Environment after North Korea’s 4th and 5th Nuclear Tests and Strategy Proposal. Seoul: Korea Institute for National Unification. https://repo.kinu.or.kr/bitstream/2015.oak/8476/1/0001485059.pdf.\n\nKim, Do-Min. 2020. “A Study on the Neutral Country Diplomacy of North and South Korea (1948–1968).” Master’s thesis, Seoul National University. https://s-space.snu.ac.kr/bitstream/10371/167794/1/000000160410.pdf.\n\nAn, Cheong-Si. 2012. “On 'Re-Viewing Asia’.” Asia Review 2(2). https://snuac.snu.ac.kr/2015_snuac/wp-content/uploads/2015/04/2권2호_편집자의말_안청시.pdf.\n\nChoe, Ui-Cheol. 2003. North Korea's Human Rights Diplomacy. Seoul: Korea Institute for National Unification. https://repo.kinu.or.kr/bitstream/2015.oak/702/1/0000598218.pdf.\n\nHeo, Moon-Young. 2001. Characteristics and Possible Changes in North Korean Diplomacy. Seoul: Korea Institute for National Unification. https://repo.kinu.or.kr/bitstream/2015.oak/590/1/0000596621.pdf.\n\nLee, Geun-Gwan. 2011. “Legal Grounds for Intervention by Neighboring States in North Korean Crises.” Seoul International Law Journal 18(2). https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE06287047.\n\n ",
+    "supporting": [
+      "Bibliography_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

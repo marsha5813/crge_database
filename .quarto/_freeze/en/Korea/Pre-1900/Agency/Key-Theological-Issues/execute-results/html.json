@@ -1,0 +1,17 @@
+{
+  "hash": "dc9ba6142de1b9500394a42d0f621f67",
+  "result": {
+    "engine": "knitr",
+    "markdown": "\n# Key theological, doctrinal, or ecclesiastic issues in this decade, if any\n\n\n\n\n\n\n\nNo content available for this section.",
+    "supporting": [
+      "Key-Theological-Issues_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

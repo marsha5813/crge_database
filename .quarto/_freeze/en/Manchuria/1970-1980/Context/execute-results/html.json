@@ -1,0 +1,15 @@
+{
+  "hash": "4684195509db542ccb379a414254a566",
+  "result": {
+    "engine": "knitr",
+    "markdown": "# Manchuria: Context (1970-1980)\n\n\n\n\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

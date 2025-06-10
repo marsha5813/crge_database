@@ -1,0 +1,17 @@
+{
+  "hash": "acb5cf41ac1d863ffd8d7e0aebc16d21",
+  "result": {
+    "engine": "knitr",
+    "markdown": "\n# Governmental Regulations on Religion and Legal Cases\n\n\n\n\n\n\n\nNo content available for this section.",
+    "supporting": [
+      "Government-Regulations_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

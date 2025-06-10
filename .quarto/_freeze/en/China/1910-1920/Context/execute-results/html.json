@@ -1,0 +1,15 @@
+{
+  "hash": "adc3dfba8f01fa3c5f6d3af823f0636e",
+  "result": {
+    "engine": "knitr",
+    "markdown": "# China: Context (1910-1920)\n\n\n\n\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

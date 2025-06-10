@@ -1,0 +1,15 @@
+{
+  "hash": "b30ebe9ee6fac629bc095b8fceed86d2",
+  "result": {
+    "engine": "knitr",
+    "markdown": "# Japan: Agency (1990-2000)\n\n\n\n\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

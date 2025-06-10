@@ -1,0 +1,17 @@
+{
+  "hash": "335e201a5b2dcdbb68bb2c9b4ea63a13",
+  "result": {
+    "engine": "knitr",
+    "markdown": "\n# Anti-Christian Organizations (including competing organizations of secularisms and other religions that campaigned against Christianity)\n\n\n\n\n\n\n\n\n ",
+    "supporting": [
+      "Anti-Christian-Organizations_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

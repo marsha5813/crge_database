@@ -1,0 +1,15 @@
+{
+  "hash": "4ba48d540461b1ea108364180a39a8d5",
+  "result": {
+    "engine": "knitr",
+    "markdown": "# Hong Kong: Agency (1910-1920)\n\n\n\n\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

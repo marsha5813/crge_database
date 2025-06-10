@@ -1,0 +1,17 @@
+{
+  "hash": "ff3328c2dead8468dede85267deb290f",
+  "result": {
+    "engine": "knitr",
+    "markdown": "\n# Social Hostility toward Christianity\n\n\n\n\n\n\n\n\nAs previously explained in the agency questionnaire, while the 1920s saw the emergence of Korean Christian movements and conflicts arising from the influx of communism, it is difficult to find any widespread atmosphere of rejecting Christianity in society as a whole. ",
+    "supporting": [
+      "Social-Hostility_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

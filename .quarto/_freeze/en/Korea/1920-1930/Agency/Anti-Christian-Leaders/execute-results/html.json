@@ -1,0 +1,17 @@
+{
+  "hash": "1812758112be308d10f6ae5371ea23c6",
+  "result": {
+    "engine": "knitr",
+    "markdown": "\n# Anti-Christian Leaders (including competitors from secularisms and other religions who argued or campaigned against Christianity)\n\n\n\n\n\n\n\n\n ",
+    "supporting": [
+      "Anti-Christian-Leaders_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

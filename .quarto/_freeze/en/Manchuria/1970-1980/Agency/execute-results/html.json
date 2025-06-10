@@ -1,0 +1,15 @@
+{
+  "hash": "98250427af61b4681f25c716c4f25326",
+  "result": {
+    "engine": "knitr",
+    "markdown": "# Manchuria: Agency (1970-1980)\n\n\n\n\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

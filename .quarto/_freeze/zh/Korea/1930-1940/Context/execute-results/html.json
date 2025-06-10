@@ -1,0 +1,15 @@
+{
+  "hash": "a59503e64aa83c23cdbad87c9a6646c0",
+  "result": {
+    "engine": "knitr",
+    "markdown": "# Korea: Context (1930-1940)\n\n\n\n\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

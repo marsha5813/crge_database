@@ -1,0 +1,17 @@
+{
+  "hash": "4eb64596e1bd60b57e8c0862c6549d25",
+  "result": {
+    "engine": "knitr",
+    "markdown": "\n# Anti-Christian Leaders\n\n\n\n\n\n\n\n\n ",
+    "supporting": [
+      "Anti-Christian-Leaders_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

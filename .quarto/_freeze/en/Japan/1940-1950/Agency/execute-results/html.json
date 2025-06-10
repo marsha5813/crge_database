@@ -1,0 +1,15 @@
+{
+  "hash": "5154b7e4139104913627dbdaaa404a7f",
+  "result": {
+    "engine": "knitr",
+    "markdown": "# Japan: Agency (1940-1950)\n\n\n\n\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "hash": "b0e285492a4832b5f06b73482b686f63",
+  "result": {
+    "engine": "knitr",
+    "markdown": "# China: Context (Pre-1900)\n\n\n\n\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
