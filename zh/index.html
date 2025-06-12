@@ -3383,12 +3383,12 @@ ul.task-list li input[type="checkbox"] {
 <section id="数据库概览" class="level2">
 <h2 class="anchored" data-anchor-id="数据库概览">数据库概览</h2>
 <ul>
-<li><strong>数据库总条目数：</strong> 768- <strong>地理区域：</strong> 6- <strong>时间段：</strong> 14- <strong>涵盖主题：</strong> 2- <strong>包含中文内容的条目：</strong> 95</li>
+<li><strong>数据库总条目数：</strong> 768- <strong>地理区域：</strong> 6- <strong>时间段：</strong> 14- <strong>涵盖主题：</strong> 2- <strong>包含中文内容的条目：</strong> 332</li>
 </ul>
 </section>
 <section id="地理覆盖范围" class="level2">
 <h2 class="anchored" data-anchor-id="地理覆盖范围">地理覆盖范围</h2>
-<p><strong>韩国：</strong> 156 条目，跨越 13 个时间段（0 条包含中文内容） <strong>台湾：</strong> 144 条目，跨越 12 个时间段（30 条包含中文内容） <strong>中国：</strong> 132 条目，跨越 11 个时间段（0 条包含中文内容） <strong>香港：</strong> 132 条目，跨越 11 个时间段（65 条包含中文内容） <strong>日本：</strong> 132 条目，跨越 11 个时间段（0 条包含中文内容） <strong>满洲：</strong> 72 条目，跨越 6 个时间段（0 条包含中文内容）</p>
+<p><strong>韩国：</strong> 156 条目，跨越 13 个时间段（0 条包含中文内容） <strong>台湾：</strong> 144 条目，跨越 12 个时间段（68 条包含中文内容） <strong>中国：</strong> 132 条目，跨越 11 个时间段（132 条包含中文内容） <strong>香港：</strong> 132 条目，跨越 11 个时间段（132 条包含中文内容） <strong>日本：</strong> 132 条目，跨越 11 个时间段（0 条包含中文内容） <strong>满洲：</strong> 72 条目，跨越 6 个时间段（0 条包含中文内容）</p>
 <hr>
 <p><em>全球东方宗教中心</em></p>
 
@@ -3814,6 +3814,85 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<script>
+// Language switcher functionality for CRGE Historical Database
+// Dynamically switches between EN and ZH versions of pages
+
+function switchLanguage(targetLang) {
+    const currentPath = window.location.pathname;
+    let newPath;
+    
+    // Remove leading slash and any trailing .html for easier processing
+    let cleanPath = currentPath.replace(/^\/|\.html$/g, '');
+    
+    // Handle top-level index.html case
+    if (cleanPath === '' || cleanPath === 'index') {
+        newPath = targetLang === 'zh' ? '/zh/index.html' : '/en/index.html';
+    }
+    // Handle en/ paths - switch to zh/
+    else if (cleanPath.startsWith('en/')) {
+        newPath = '/' + cleanPath.replace('en/', 'zh/') + '.html';
+    }
+    // Handle zh/ paths - switch to en/
+    else if (cleanPath.startsWith('zh/')) {
+        newPath = '/' + cleanPath.replace('zh/', 'en/') + '.html';
+    }
+    // Handle other cases - assume we want to add language prefix
+    else {
+        newPath = targetLang === 'zh' ? '/zh/' + cleanPath + '.html' : '/en/' + cleanPath + '.html';
+    }
+    
+    // Navigate to the new URL
+    window.location.href = newPath;
+}
+
+// Function to get current language from URL
+function getCurrentLanguage() {
+    const path = window.location.pathname;
+    if (path.includes('/zh/')) {
+        return 'zh';
+    } else if (path.includes('/en/')) {
+        return 'en';
+    } else {
+        // Default to English for top-level pages
+        return 'en';
+    }
+}
+
+// Function to update language switcher text based on current page
+function updateLanguageSwitcher() {
+    const currentLang = getCurrentLanguage();
+    const switcher = document.querySelector('#nav-menu-en--中文 .menu-text');
+    
+    if (switcher) {
+        // Update the switcher text to show current language first
+        switcher.textContent = currentLang === 'zh' ? '中文 / EN' : 'EN / 中文';
+    }
+}
+
+// Initialize when page loads
+document.addEventListener('DOMContentLoaded', function() {
+    updateLanguageSwitcher();
+    
+    // Add click handlers to language switcher dropdown items
+    const dropdownItems = document.querySelectorAll('.dropdown-item');
+    
+    dropdownItems.forEach(function(item) {
+        const text = item.textContent.trim();
+        if (text === 'English') {
+            item.addEventListener('click', function(e) {
+                e.preventDefault();
+                switchLanguage('en');
+            });
+        } else if (text === '中文') {
+            item.addEventListener('click', function(e) {
+                e.preventDefault();
+                switchLanguage('zh');
+            });
+        }
+    });
+});
+</script>
 
 
 

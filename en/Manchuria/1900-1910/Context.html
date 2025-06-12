@@ -3367,25 +3367,27 @@ ul.task-list li input[type="checkbox"] {
 <h1>Manchuria: Context (1900-1910)</h1>
 <section id="governmental-regulations-on-religion-and-legal-cases" class="level2">
 <h2 class="anchored" data-anchor-id="governmental-regulations-on-religion-and-legal-cases">Governmental Regulations on Religion and Legal Cases</h2>
-<p>Although there was no change in the legal structure (with foreign mission still being legally permitted), the political setting changed dramatically after the Boxer suppression. The sidelining of the anti-foreign faction at court rippled throughout the country, such that many of the formerly anti-foreign “mandarins” that had been problematic for or oppressive of missionaries were either replaced or adopted a very different tone. The overall relations between state and missions became cordial or even helpful, but this was without a change in the legal framework.</p>
+<p>
+Although there was no change in the legal structure (with foreign mission still being legally permitted), the political setting changed dramatically after the Boxer suppression. The sidelining of the anti-foreign faction at court rippled throughout the country, such that many of the formerly anti-foreign “mandarins” that had been problematic for or oppressive of missionaries were either replaced or adopted a very different tone. The overall relations between state and missions became cordial or even helpful, but this was without a change in the legal framework.
+</p>
 </section>
 <section id="social-hostility-toward-christianity" class="level2">
 <h2 class="anchored" data-anchor-id="social-hostility-toward-christianity">Social Hostility toward Christianity</h2>
-<p>The period started with the Boxers, which is a fairly clear indication of social hostility. However, it is worth qualifying that despite their anti-Christian/anti-foreign rhetoric, there were many motivations behind actual violence. There are numerous reports of people using the occasion to settle grudges against neighbors and employers. One of a late-Qing coal mine being destroyed by Boxers sounds like a typical case of luddite anti-technology violence, except for the fact that the perpetrators were themselves former miners, most likely motivated by a grudge against a former employer. I suspect that this sort of occurrence was behind a great deal of violence that on the surface looks like straightforward anti-Christianity.</p>
-<p>With the suppression of the Boxers, social hostility no doubt remained, but it was no longer as easily expressed, especially through violence. There are occasional cases of former Boxers attacking or being mobilized to attack Christians, but in the latter case, the impetus came from a disaffected local official who used them as his personal goon squad.</p>
-<p>On the contrary, the growth of Christian numbers and the Protestant “Manchurian revival” attest to a much greater acceptance, or at least to the new acceptability of expressing support in public. (DuBois 2017) This support extended beyond the religion itself to greater willingness to make use of allied institutions such as pharmacies and schools.</p>
-<p>As with officials</p>
+<p>
+Although there was no change in the legal structure (with foreign mission still being legally permitted), the political setting changed dramatically after the Boxer suppression. The sidelining of the anti-foreign faction at court rippled throughout the country, such that many of the formerly anti-foreign “mandarins” that had been problematic for or oppressive of missionaries were either replaced or adopted a very different tone. The overall relations between state and missions became cordial or even helpful, but this was without a change in the legal framework.
+</p>
 </section>
 <section id="geopolitical-dynamics-and-international-relationships" class="level2">
 <h2 class="anchored" data-anchor-id="geopolitical-dynamics-and-international-relationships">Geopolitical Dynamics and International Relationships</h2>
-<p>The military defeat of the Qing, followed by the disaster of the Boxer uprising (and the need for foreign troops to help put it down) made clear the state of the power vacuum in the country, notably in Manchuria, where Russia and Japan fought for supremacy in 1904-5.</p>
-<p>Notably, although Russia was a Christian country, missionaries were anything but optimistic about what Russian victory would mean for the missions. Missionaries praised the orderly behavior of the Japanese side’s troops, and were more confident in the place of Christianity in a modern, Japanese run or administered Manchuria.</p>
-<p>The rise and fall of the Boxers also ushered in a new era of common purpose among certain levels of the foreign community, at least in Manchuria.</p>
-<p>Somewhat ironically, as the Qing had now displayed its loss of de facto control over the region, it was during this period that Manchuria was finally brought under direct central control, with the three former commanderies now being made into provinces.</p>
+<p>
+Although there was no change in the legal structure (with foreign mission still being legally permitted), the political setting changed dramatically after the Boxer suppression. The sidelining of the anti-foreign faction at court rippled throughout the country, such that many of the formerly anti-foreign “mandarins” that had been problematic for or oppressive of missionaries were either replaced or adopted a very different tone. The overall relations between state and missions became cordial or even helpful, but this was without a change in the legal framework.
+</p>
 </section>
 <section id="bibliography" class="level2">
 <h2 class="anchored" data-anchor-id="bibliography">Bibliography</h2>
-<p>DuBois, Thomas David. Empire and the Meaning of Religion in Northeast Asia: Manchuria 1900–1945 (Cambridge University Press, 2017)</p>
+<p>
+DuBois, Thomas David. Empire and the Meaning of Religion in Northeast Asia: Manchuria 1900–1945 (Cambridge University Press, 2017)
+</p>
 
 
 </section>
@@ -3810,6 +3812,85 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<script>
+// Language switcher functionality for CRGE Historical Database
+// Dynamically switches between EN and ZH versions of pages
+
+function switchLanguage(targetLang) {
+    const currentPath = window.location.pathname;
+    let newPath;
+    
+    // Remove leading slash and any trailing .html for easier processing
+    let cleanPath = currentPath.replace(/^\/|\.html$/g, '');
+    
+    // Handle top-level index.html case
+    if (cleanPath === '' || cleanPath === 'index') {
+        newPath = targetLang === 'zh' ? '/zh/index.html' : '/en/index.html';
+    }
+    // Handle en/ paths - switch to zh/
+    else if (cleanPath.startsWith('en/')) {
+        newPath = '/' + cleanPath.replace('en/', 'zh/') + '.html';
+    }
+    // Handle zh/ paths - switch to en/
+    else if (cleanPath.startsWith('zh/')) {
+        newPath = '/' + cleanPath.replace('zh/', 'en/') + '.html';
+    }
+    // Handle other cases - assume we want to add language prefix
+    else {
+        newPath = targetLang === 'zh' ? '/zh/' + cleanPath + '.html' : '/en/' + cleanPath + '.html';
+    }
+    
+    // Navigate to the new URL
+    window.location.href = newPath;
+}
+
+// Function to get current language from URL
+function getCurrentLanguage() {
+    const path = window.location.pathname;
+    if (path.includes('/zh/')) {
+        return 'zh';
+    } else if (path.includes('/en/')) {
+        return 'en';
+    } else {
+        // Default to English for top-level pages
+        return 'en';
+    }
+}
+
+// Function to update language switcher text based on current page
+function updateLanguageSwitcher() {
+    const currentLang = getCurrentLanguage();
+    const switcher = document.querySelector('#nav-menu-en--中文 .menu-text');
+    
+    if (switcher) {
+        // Update the switcher text to show current language first
+        switcher.textContent = currentLang === 'zh' ? '中文 / EN' : 'EN / 中文';
+    }
+}
+
+// Initialize when page loads
+document.addEventListener('DOMContentLoaded', function() {
+    updateLanguageSwitcher();
+    
+    // Add click handlers to language switcher dropdown items
+    const dropdownItems = document.querySelectorAll('.dropdown-item');
+    
+    dropdownItems.forEach(function(item) {
+        const text = item.textContent.trim();
+        if (text === 'English') {
+            item.addEventListener('click', function(e) {
+                e.preventDefault();
+                switchLanguage('en');
+            });
+        } else if (text === '中文') {
+            item.addEventListener('click', function(e) {
+                e.preventDefault();
+                switchLanguage('zh');
+            });
+        }
+    });
+});
+</script>
 
 
 

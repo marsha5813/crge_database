@@ -3347,7 +3347,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#manchuria-context-1920-1930" id="toc-manchuria-context-1920-1930" class="nav-link active" data-scroll-target="#manchuria-context-1920-1930">Manchuria: Context (1920-1930)</a></li>
+  <li><a href="#manchuria-context-1920-1930" id="toc-manchuria-context-1920-1930" class="nav-link active" data-scroll-target="#manchuria-context-1920-1930">Manchuria: Context (1920-1930)</a>
+  <ul class="collapse">
+  <li><a href="#governmental-regulations-on-religion-and-legal-cases" id="toc-governmental-regulations-on-religion-and-legal-cases" class="nav-link" data-scroll-target="#governmental-regulations-on-religion-and-legal-cases">Governmental Regulations on Religion and Legal Cases</a></li>
+  <li><a href="#social-hostility-toward-christianity" id="toc-social-hostility-toward-christianity" class="nav-link" data-scroll-target="#social-hostility-toward-christianity">Social Hostility toward Christianity</a></li>
+  <li><a href="#geopolitical-dynamics-and-international-relationships" id="toc-geopolitical-dynamics-and-international-relationships" class="nav-link" data-scroll-target="#geopolitical-dynamics-and-international-relationships">Geopolitical Dynamics and International Relationships</a></li>
+  <li><a href="#bibliography" id="toc-bibliography" class="nav-link" data-scroll-target="#bibliography">Bibliography</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -3359,8 +3365,53 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="manchuria-context-1920-1930" class="level1">
 <h1>Manchuria: Context (1920-1930)</h1>
+<section id="governmental-regulations-on-religion-and-legal-cases" class="level2">
+<h2 class="anchored" data-anchor-id="governmental-regulations-on-religion-and-legal-cases">Governmental Regulations on Religion and Legal Cases</h2>
+<p>
+As with the previous one, most of this decade was marked by an overall absence of both law and order. Where laws did exist, it was in areas of foreign control, notably Dalian and the area controlled by the South Manchuria Railway. There was some nominal extension of Republican control over the end of the decade, but in practice, courts and legal systems remained largely a matter of local fiat, staffed by a wide variety of legal personnel.
+</p>
+<p>
+As such, regulation of religion was not a matter of law, nor was law the ideal recourse for matters of conflict. Rather, it was a matter of maintaining good or bad relationships with local authorities, particularly the police. Missionaries report generally felt that these relations were good, excepting the rise of nationalistic sentiment late in the decade. One source attributes this sentiment to southern transplants, but no further details are given.
+</p>
+<p>
+There is a sense of foreboding that the new Republican government would become hostile to religion overall, and Christianity in particular, but this has not yet played out.
+</p>
+</section>
+<section id="social-hostility-toward-christianity" class="level2">
+<h2 class="anchored" data-anchor-id="social-hostility-toward-christianity">Social Hostility toward Christianity</h2>
+<p>
+As with the previous one, most of this decade was marked by an overall absence of both law and order. Where laws did exist, it was in areas of foreign control, notably Dalian and the area controlled by the South Manchuria Railway. There was some nominal extension of Republican control over the end of the decade, but in practice, courts and legal systems remained largely a matter of local fiat, staffed by a wide variety of legal personnel.
+</p>
+<p>
+As such, regulation of religion was not a matter of law, nor was law the ideal recourse for matters of conflict. Rather, it was a matter of maintaining good or bad relationships with local authorities, particularly the police. Missionaries report generally felt that these relations were good, excepting the rise of nationalistic sentiment late in the decade. One source attributes this sentiment to southern transplants, but no further details are given.
+</p>
+<p>
+There is a sense of foreboding that the new Republican government would become hostile to religion overall, and Christianity in particular, but this has not yet played out.
+</p>
+</section>
+<section id="geopolitical-dynamics-and-international-relationships" class="level2">
+<h2 class="anchored" data-anchor-id="geopolitical-dynamics-and-international-relationships">Geopolitical Dynamics and International Relationships</h2>
+<p>
+As with the previous one, most of this decade was marked by an overall absence of both law and order. Where laws did exist, it was in areas of foreign control, notably Dalian and the area controlled by the South Manchuria Railway. There was some nominal extension of Republican control over the end of the decade, but in practice, courts and legal systems remained largely a matter of local fiat, staffed by a wide variety of legal personnel.
+</p>
+<p>
+As such, regulation of religion was not a matter of law, nor was law the ideal recourse for matters of conflict. Rather, it was a matter of maintaining good or bad relationships with local authorities, particularly the police. Missionaries report generally felt that these relations were good, excepting the rise of nationalistic sentiment late in the decade. One source attributes this sentiment to southern transplants, but no further details are given.
+</p>
+<p>
+There is a sense of foreboding that the new Republican government would become hostile to religion overall, and Christianity in particular, but this has not yet played out.
+</p>
+</section>
+<section id="bibliography" class="level2">
+<h2 class="anchored" data-anchor-id="bibliography">Bibliography</h2>
+<p>
+Chernolutskaya, Elena. “Religious Communities in Harbin and Ethnic Identity of Emigrés,” in Harbin and Manchuria: Place, Space and Identity, ed.&nbsp;Thomas Lahusen, 79–96. Durham, NC: Duke University Press, 2001.
+</p>
+<p>
+Japan and Dependencies: Political and Economic Reports, 1906–1960, vols. XIV– XVI. Manchukuo: political and economic reports. London: Archive Editions, 1994.
+</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -3782,6 +3833,85 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<script>
+// Language switcher functionality for CRGE Historical Database
+// Dynamically switches between EN and ZH versions of pages
+
+function switchLanguage(targetLang) {
+    const currentPath = window.location.pathname;
+    let newPath;
+    
+    // Remove leading slash and any trailing .html for easier processing
+    let cleanPath = currentPath.replace(/^\/|\.html$/g, '');
+    
+    // Handle top-level index.html case
+    if (cleanPath === '' || cleanPath === 'index') {
+        newPath = targetLang === 'zh' ? '/zh/index.html' : '/en/index.html';
+    }
+    // Handle en/ paths - switch to zh/
+    else if (cleanPath.startsWith('en/')) {
+        newPath = '/' + cleanPath.replace('en/', 'zh/') + '.html';
+    }
+    // Handle zh/ paths - switch to en/
+    else if (cleanPath.startsWith('zh/')) {
+        newPath = '/' + cleanPath.replace('zh/', 'en/') + '.html';
+    }
+    // Handle other cases - assume we want to add language prefix
+    else {
+        newPath = targetLang === 'zh' ? '/zh/' + cleanPath + '.html' : '/en/' + cleanPath + '.html';
+    }
+    
+    // Navigate to the new URL
+    window.location.href = newPath;
+}
+
+// Function to get current language from URL
+function getCurrentLanguage() {
+    const path = window.location.pathname;
+    if (path.includes('/zh/')) {
+        return 'zh';
+    } else if (path.includes('/en/')) {
+        return 'en';
+    } else {
+        // Default to English for top-level pages
+        return 'en';
+    }
+}
+
+// Function to update language switcher text based on current page
+function updateLanguageSwitcher() {
+    const currentLang = getCurrentLanguage();
+    const switcher = document.querySelector('#nav-menu-en--中文 .menu-text');
+    
+    if (switcher) {
+        // Update the switcher text to show current language first
+        switcher.textContent = currentLang === 'zh' ? '中文 / EN' : 'EN / 中文';
+    }
+}
+
+// Initialize when page loads
+document.addEventListener('DOMContentLoaded', function() {
+    updateLanguageSwitcher();
+    
+    // Add click handlers to language switcher dropdown items
+    const dropdownItems = document.querySelectorAll('.dropdown-item');
+    
+    dropdownItems.forEach(function(item) {
+        const text = item.textContent.trim();
+        if (text === 'English') {
+            item.addEventListener('click', function(e) {
+                e.preventDefault();
+                switchLanguage('en');
+            });
+        } else if (text === '中文') {
+            item.addEventListener('click', function(e) {
+                e.preventDefault();
+                switchLanguage('zh');
+            });
+        }
+    });
+});
+</script>
 
 
 
