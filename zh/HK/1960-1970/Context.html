@@ -5796,24 +5796,33 @@ function switchLanguage(targetLang) {
     const currentPath = window.location.pathname;
     let newPath;
     
-    // Remove leading slash and any trailing .html for easier processing
-    let cleanPath = currentPath.replace(/^\/|\.html$/g, '');
+    // Extract the base path (everything before /en/ or /zh/)
+    const pathParts = currentPath.split('/');
+    let basePath = '';
+    let relativePath = '';
     
-    // Handle top-level index.html case
-    if (cleanPath === '' || cleanPath === 'index') {
-        newPath = targetLang === 'zh' ? '/zh/index.html' : '/en/index.html';
-    }
-    // Handle en/ paths - switch to zh/
-    else if (cleanPath.startsWith('en/')) {
-        newPath = '/' + cleanPath.replace('en/', 'zh/') + '.html';
-    }
-    // Handle zh/ paths - switch to en/
-    else if (cleanPath.startsWith('zh/')) {
-        newPath = '/' + cleanPath.replace('zh/', 'en/') + '.html';
-    }
-    // Handle other cases - assume we want to add language prefix
-    else {
-        newPath = targetLang === 'zh' ? '/zh/' + cleanPath + '.html' : '/en/' + cleanPath + '.html';
+    // Find where en/ or zh/ appears in the path
+    const enIndex = pathParts.indexOf('en');
+    const zhIndex = pathParts.indexOf('zh');
+    
+    if (enIndex !== -1) {
+        // Current path has /en/ - extract base path and relative path
+        basePath = pathParts.slice(0, enIndex).join('/');
+        relativePath = pathParts.slice(enIndex + 1).join('/');
+        newPath = basePath + '/zh/' + relativePath;
+    } else if (zhIndex !== -1) {
+        // Current path has /zh/ - extract base path and relative path  
+        basePath = pathParts.slice(0, zhIndex).join('/');
+        relativePath = pathParts.slice(zhIndex + 1).join('/');
+        newPath = basePath + '/en/' + relativePath;
+    } else {
+        // No language prefix found - add one
+        // Handle root index case
+        if (currentPath.endsWith('/') || currentPath.endsWith('/index.html')) {
+            newPath = currentPath.replace(/\/$|\/index\.html$/, '') + '/' + targetLang + '/index.html';
+        } else {
+            newPath = currentPath + (targetLang === 'zh' ? '/zh/' : '/en/');
+        }
     }
     
     // Navigate to the new URL
